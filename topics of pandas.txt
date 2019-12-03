@@ -1,0 +1,31 @@
+unique
+counts
+value_counts
+groupby
+map
+concat
+drop
+merge
+describe
+shape
+df[['z','d']] --> for selecting multiple columns
+loc[] -->labels
+iloc[] -->indexed
+
+df['new'] = df['w'] + df['x']
+df.drop(axis=0)
+
+-->To discard null values
+df['W']>0
+df[df['w']>0] -->only returns rows that contain no null values
+
+--> for normal distribution
+x=np.random.normal(0,5,1200)
+plt.hist(x)
+
+-->column renaming
+	df.rename
+-->Missing data
+	df.dropna()
+	df.fillna(value='fill value') or df['A'].fillna(value=df['a'].mean())
+--groupby()
